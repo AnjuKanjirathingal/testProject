@@ -1,0 +1,52 @@
+.offerPages
+{
+   /*border-style:groove;*/
+    width:100%;
+    height :80%;
+    text-align:center;
+    
+    
+}
+.divOfferHeading{
+    width:100%;
+    height:8%;
+    border-bottom:1.5px solid grey;
+    
+}
+.offerContainer{
+  height :70%;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+ /* justify-content:space-between;*/
+  background-color:rgb(255, 251, 251);
+  /*border-style:dashed;*/
+ 
+}
+.offerSections{
+    display: flex ;
+    flex-direction:row;  
+    width:95%;
+    height:66%;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 1%;
+    justify-content:space-between;
+   /* border-style: double;*/
+}
+.imgElectronicOffers
+{
+    width:40%;
+    height: 80%; 
+    display: block;
+    margin: 3%;
+    padding: 1%;
+   /* border-style: dashed;*/
+}
+.divImage
+{
+    width: 40%;
+    height: 30%;
+    object-fit: cover;
+   
+}
